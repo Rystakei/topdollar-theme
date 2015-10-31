@@ -464,7 +464,6 @@ margin on the iframe, cause it breaks stuff. */
 .inner {
     position: relative;
     width: 80%;
-    max-width: 710px;
     margin: 0 auto;
 }
 
@@ -920,7 +919,6 @@ body.nav-opened .nav {
 .post {
     position: relative;
     width: 80%;
-    max-width: 710px;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
@@ -1489,7 +1487,6 @@ body:not(.post-template) .post-title {
 .pagination {
     position: relative;
     width: 80%;
-    max-width: 710px;
     margin: 4rem auto;
     font-family: "Montserrat", sans-serif;
     font-size: 1.3rem;
@@ -2105,6 +2102,7 @@ $primary: #27AE60;
 
 a {
   color: black !important;
+  cursor: pointer;
 
   &:visited {
     color: black !important;
@@ -2112,7 +2110,13 @@ a {
   &:hover, &:active {
     color: $primary !important;
   }
+
+  &.reference-link {
+    color: $primary !important;
+  }
 }
+
+
 
 .posts {
   background: black;

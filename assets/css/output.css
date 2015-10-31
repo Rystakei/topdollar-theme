@@ -493,7 +493,6 @@ margin on the iframe, cause it breaks stuff. */
 .inner {
   position: relative;
   width: 80%;
-  max-width: 710px;
   margin: 0 auto; }
 
 /* Centres vertically yo. (IE8+) */
@@ -902,7 +901,6 @@ body.nav-opened .nav {
 .post {
   position: relative;
   width: 80%;
-  max-width: 710px;
   margin: 4rem auto;
   padding-bottom: 4rem;
   border-bottom: #EBF2F6 1px solid;
@@ -1392,7 +1390,6 @@ body:not(.post-template) .post-title {
 .pagination {
   position: relative;
   width: 80%;
-  max-width: 710px;
   margin: 4rem auto;
   font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
@@ -1875,10 +1872,13 @@ html, body {
   color: #27AE60; }
 
 a {
-  color: black !important; }
+  color: black !important;
+  cursor: pointer; }
   a:visited {
     color: black !important; }
   a:hover, a:active {
+    color: #27AE60 !important; }
+  a.reference-link {
     color: #27AE60 !important; }
 
 .posts {
