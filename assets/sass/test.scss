@@ -308,7 +308,7 @@ h1.title {
 }
 
 .city-data {
-  height: 455px;
+  height: 515px;
   display: none;
 
   h1 {
@@ -334,11 +334,7 @@ h1.title {
   }
   h1{
     font-size: 30px;
-    // padding-bottom:30px;
   }
-  // h2 {
-  //   font-size: 26px;
-  // }
   h3 {
     font-size: 15px;
     padding-bottom: 10px;
@@ -349,7 +345,32 @@ h1.title {
   }
 }
 
+.referenced {
+  padding-top: 20px;
+  color: white;
+  font-size: 12px;
 
+  li, b {
+    color: white;
+  }
+
+  a, a:hover, a:visited, a:active {
+    color: #27AE60 !important;
+    text-decoration: none;
+  }
+
+  h1 {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+  }
+}
+
+sup.income-info .fa{
+  color: $highlightColor;
+  cursor: pointer;
+  padding-left: -4px;
+}
 
 
 

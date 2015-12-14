@@ -1516,7 +1516,8 @@ body:not(.post-template) .post-title {
 }
 
 .page-number {
-    display: inline-block;
+    display: none;
+    // display: inline-block;
     padding: 2px 0;
     min-width: 100px;
 }

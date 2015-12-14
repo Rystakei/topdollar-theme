@@ -1416,7 +1416,7 @@ body:not(.post-template) .post-title {
   right: 0; }
 
 .page-number {
-  display: inline-block;
+  display: none;
   padding: 2px 0;
   min-width: 100px; }
 
@@ -2158,7 +2158,7 @@ h1.title {
       font-size: 30px; } }
 
 .city-data {
-  height: 455px;
+  height: 515px;
   display: none; }
   .city-data h1 {
     margin-bottom: -24px;
@@ -2182,5 +2182,24 @@ h1.title {
     padding-bottom: 10px; }
   .chart-section p {
     font-size: 18px; }
+
+.referenced {
+  padding-top: 20px;
+  color: white;
+  font-size: 12px; }
+  .referenced li, .referenced b {
+    color: white; }
+  .referenced a, .referenced a:hover, .referenced a:visited, .referenced a:active {
+    color: #27AE60 !important;
+    text-decoration: none; }
+  .referenced h1 {
+    margin: 0;
+    color: white;
+    font-size: 14px; }
+
+sup.income-info .fa {
+  color: #F8F991;
+  cursor: pointer;
+  padding-left: -4px; }
 
 /*# sourceMappingURL=output.css.map */
